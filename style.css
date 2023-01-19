@@ -1,0 +1,224 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+    .nav-link:hover{
+      color: rgb(22, 76, 255);
+    }
+    .nav-link{
+      color: rgb(131, 126, 126);
+    }
+    .nav-item{
+      margin-left: 20px;
+    }
+    .btn{
+      border-radius: 10px;
+      font-size: 15px;
+    }
+    .form-control{
+      border-radius: 10px;
+      font-size: 15px;
+      border-color: #222222;
+    }
+    h1{
+      font-weight: light;
+      font-style: italic;
+      font-size: 72px;
+      background-image: linear-gradient(45deg, #9191a8, rgb(33, 30, 231));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
+    @media (max-width: 664px) {
+    #cont1 {
+text-align: center;
+    }
+  }
+    h2{
+      font-size: 45px;
+      font-weight: bold;
+      background-image: linear-gradient(70deg, #7979cc, rgb(33, 30, 231));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
+    h3{
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 3%;
+      font-size: 40px;
+    }
+    h4{
+      margin-top: 3%;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 3%;
+      font-size: 20px;
+    }
+#btn-back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;
+}
+#btn-back-to-top{
+background-color:rgb(30, 64, 255);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+}
+.navbar-toggler{
+border: none;
+}
+#about{
+margin: 5px 5px 5px 5px;
+}
+#btn1{
+filter: drop-shadow(16px 14px 25px #000);
+font-weight: normal;
+
+}
+header{
+margin-bottom: 10%;
+}
+#cont1{
+margin-bottom: 20%;
+}
+#lad{
+font-weight: bold;
+font-size: 20px;
+text-decoration: none; 
+}
+.con{
+width: 40px;
+}
+.logo{
+width: 40px;
+}
+.arr{
+width: 25px;
+opacity: 80%;
+}
+#pri{
+margin-bottom: 20%;
+}
+#feat{
+margin-bottom: 20%;
+background-color: rgba(187, 183, 178, 0.178);
+border-radius: 10px;
+padding: 3% 3% 3%  3% ;
+}
+#price{
+color: rgb(38, 190, 0);
+}
+#price2{
+color: rgb(240, 21, 21);
+font-size: 30px;
+}
+.me img{
+    width: 100%;
+    height: auto;
+    border-radius: 30% 70% 38% 62% / 66% 51% 49% 34%;  
+    filter: drop-shadow(36px 34px 50px #000);
+}
+.tag{
+font-weight: bold;
+color: rgb(70, 67, 67);
+font-size: 20px;
+background-color: rgb(193, 204, 204);
+border-radius: 10px;
+}
+.try{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+@media (max-width: 668px) {
+    .try {
+text-align: center;
+    }
+    .ladin_footer{
+      text-align: center;
+    }
+    .phone_num{
+      text-align: center;
+    }
+    .email{
+      text-align: center;
+    }
+  }
+.footer{
+    background-color: #d6d6d6;
+    color: #222222;
+    width: 100%;
+    margin: 0%;
+    padding: 3% 15% 0 15%;
+}
+.logo1{
+    width: 40px;
+    margin: 0%;
+}
+h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer_1{
+    text-align: center;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon1:hover{
+  opacity: 80%;
+}
+.phone_num a{
+  text-decoration: none;
+  color: #222222;
+}
+.email a{
+  text-decoration: none;
+  color: #222222;
+}
+.email{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media (min-width: 660px) {
+  #footer_contact{
+    border-right: dotted 1px rgba(0, 0, 0, 0.267);
+  }
+  .social{ display: flex;
+  justify-content: left;
+  align-items: left;
+  }
+}
+@media (max-width: 660px) {
+  #footer_contact{
+    border-bottom: dotted 1px rgba(0, 0, 0, 0.267);
+  }
+}
+h4{
+  background-image: linear-gradient(45deg, #9191a8, rgb(33, 30, 231));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.featu img{
+  width: 100%;
+    height: auto;
+    border-radius: 30% 70% 38% 62% / 66% 51% 49% 34%;  
+    filter: drop-shadow(36px 34px 50px #000);
+}
+.thumbnail{
+  overflow: hidden;
+}
+.thumbnail img {
+  transition: transform .5s ease;
+}
+
+.thumbnail:hover img {
+  transform: scale(1.5);
+}
